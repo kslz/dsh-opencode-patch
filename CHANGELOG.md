@@ -6,6 +6,39 @@ This project is an evolution of [**`nobu121/dsh-opencode-session`**](https://git
 
 ---
 
+## [1.3.0](https://github.com/viztor/dsh-opencode-patch/compare/v1.2.3...v1.3.0) (2026-10-21)
+
+
+### Features
+
+* **settings:** drop hiddenModels and purge retired models from the profile ([7ffa6c1](https://github.com/viztor/dsh-opencode-patch/commit/7ffa6c1d892fc022d15225f134a791622c5b022d))
+
+
+### Fixes
+
+* **cordis:** a guard that throws is not a guard ([203ac61](https://github.com/viztor/dsh-opencode-patch/commit/203ac61f92dd556ceb97fb7b5f875c70ac2ba40e))
+* **diagnostics:** a route whose models could not be read is not a route that declared none ([5b9fe55](https://github.com/viztor/dsh-opencode-patch/commit/5b9fe55798aecdb0affc35f873e690770ab594c6))
+* **discovery:** join the live catalog into the selectable model list ([3e8b214](https://github.com/viztor/dsh-opencode-patch/commit/3e8b214ab8804bd5a78fd924c3212ec08102250a))
+* **discovery:** join the live catalog into the selectable model list ([e1f69f2](https://github.com/viztor/dsh-opencode-patch/commit/e1f69f22b1d01765c441be781f3f88510f5b7ef9))
+* **meter:** do not spend the one registration on a scope without slots ([6ac3ecf](https://github.com/viztor/dsh-opencode-patch/commit/6ac3ecfcd32225ee7ebcbc88aee51c97fecaa1b0))
+* **meter:** do not spend the one registration on a scope without slots ([38cd437](https://github.com/viztor/dsh-opencode-patch/commit/38cd437b80af19f1e692ea0216df64b3ce9bf94e))
+* **meter:** read the remote namespace through ctx.get, not the property ([ec7b14e](https://github.com/viztor/dsh-opencode-patch/commit/ec7b14ec4f9db2a73c825b9e28e663e9e1ec4197))
+* **meter:** read the remote namespace through ctx.get, not the property ([7136027](https://github.com/viztor/dsh-opencode-patch/commit/7136027c806b872fb5300625ff21db8988c409ee))
+* **models:** never mount the catalog for a route that declares nothing ([8e63d02](https://github.com/viztor/dsh-opencode-patch/commit/8e63d02d8e012ab8b971462e0a42aaf7ecbb14eb))
+* **models:** never mount the catalog for a route that declares nothing ([5ae81e9](https://github.com/viztor/dsh-opencode-patch/commit/5ae81e9a32341d5da5a77b4b762e1a19c309c329))
+* **picker:** a route that declares models is not a route with none ([517e057](https://github.com/viztor/dsh-opencode-patch/commit/517e057d9f5a87a386e1f586f548a624eeab0eb3))
+* **picker:** a route that declares models is not a route with none ([06624f4](https://github.com/viztor/dsh-opencode-patch/commit/06624f44af154fdbe253c7b1cd2d1b0b1a223bb7))
+* **purge:** the namespace was never mounted, and the read flag was stale ([31f53b0](https://github.com/viztor/dsh-opencode-patch/commit/31f53b03172bb55cad1b589c6ca7c1954be3a6f2))
+* **purge:** the namespace was never mounted, and the read flag was stale ([160f31c](https://github.com/viztor/dsh-opencode-patch/commit/160f31c9324afd94c7374fd9f37c3b20d036c62f))
+* **routing:** read the declared models from the config, not from listModels ([b0846fc](https://github.com/viztor/dsh-opencode-patch/commit/b0846fc4304b2c867d560d650b544a8a46a7ce51))
+* **routing:** read the declared models from the config, not from listModels ([b35fb8a](https://github.com/viztor/dsh-opencode-patch/commit/b35fb8a24ba130c0c11a0622c4cb40f6cb460018))
+* **routing:** the loader's entries() is a generator, not an array ([22e3cae](https://github.com/viztor/dsh-opencode-patch/commit/22e3caeb1f98f785fd650a013a9a852c1f179d53))
+* **routing:** the loader's entries() is a generator, not an array ([c4cd856](https://github.com/viztor/dsh-opencode-patch/commit/c4cd8567c4306b1ac7015b32ca2318848ec061b7))
+* **ui:** withdraw the catalog join, and give every token a fallback ([da4dd82](https://github.com/viztor/dsh-opencode-patch/commit/da4dd82c3ed73b357b0c833d37c7d5f3a12a5178))
+* **ui:** withdraw the catalog join, and give every token a fallback ([960d299](https://github.com/viztor/dsh-opencode-patch/commit/960d29900065431ae4ae303a7676119415fd1fde))
+* **usage:** register the remote service on the root, once per process ([8e7d630](https://github.com/viztor/dsh-opencode-patch/commit/8e7d63014bda0ab603833a44c833072fb8095b54))
+* **usage:** register the remote service on the root, once per process ([8fb0e34](https://github.com/viztor/dsh-opencode-patch/commit/8fb0e345759da43169c4aff8003cfd1d5d80fcff))
+
 ## [1.2.3](https://github.com/viztor/dsh-opencode-patch/compare/v1.2.2...v1.2.3) (2026-10-19)
 
 
