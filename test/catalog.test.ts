@@ -371,9 +371,7 @@ describe("OpenCode Model Catalog & Enrichment", () => {
       data: Array<{ id: string }>;
     };
     // The GO catalog's own rows are in it…
-    expect(goJson.data.some((m) => m.id === "gemini-4-argon-contributor")).toBe(
-      true
-    );
+    expect(goJson.data.some((m) => m.id === "gemini-4-argon")).toBe(true);
     expect(goJson.data.some((m) => m.id === "muse-spark-1.3-contributor")).toBe(
       true
     );
@@ -1144,11 +1142,7 @@ describe("routing · the plane half of the decision", () => {
 
   it("leaves a model with no protocol alone", () => {
     expect(
-      internalRouteFor(
-        "opencode-go",
-        "gemini-4-argon-contributor",
-        "@ai-sdk/google"
-      )
+      internalRouteFor("opencode-go", "gemini-4-argon", "@ai-sdk/google")
     ).toBe("opencode-go-google");
     expect(internalRouteFor("opencode-go", "grok-4.7")).toBeUndefined();
   });
